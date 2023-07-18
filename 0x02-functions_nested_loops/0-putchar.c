@@ -1,6 +1,7 @@
 #include <unistd.h>
+#include "main.h"
 
-void _putchar(char c)
+int _putchar(char c)
 {
 	write(1, &c, 1);
 }
@@ -15,6 +16,6 @@ int main(void)
 		_putchar(d[i]);
 		i++;
 	}
-	write(1, "\n", 1);
+	_putchar('\n');
 	return (0);
 }

@@ -3,6 +3,6 @@
 # include <stdio.h>
 # include <unistd.h>
 
-viod	_putchar(cahr c);
+int	_putchar(char c);
 
 #endif /* MAIN_H */
